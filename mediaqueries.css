@@ -1,0 +1,44 @@
+@media screen and (max-width: 1640px) {
+    section {
+        padding-top: 4vh;
+        height: auto;
+        margin: 0 10rem;
+        box-sizing: border-box;
+        min-height: fit-content;
+      }
+
+    .project-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .containterAboutmeIntro {
+        display: flex;
+        gap: 30px;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    
+    #nav-webpage {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .profileText1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 3rem;
+    }
+
+}
