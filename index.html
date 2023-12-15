@@ -29,15 +29,18 @@
             <img src="Images/arrow.png" alt="" class="arrow" onclick="location.href='#projects'"/>             
         </section>
         
-        <section id="projects">
+        <header>
             <nav id="nav-webpage">          
                 <ul class="navlist">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
                     <li><a href="#aboutme">About Me</a></li>               
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav> 
+        </header>
+
+        <section id="projects">
             <h2 class="title"> PORTFOLIO </h2>
             <div class="project-container">
                 <div class="project-container1">
@@ -92,7 +95,8 @@
                 </div> 
             </div>
                             <div class="aboutmeContainer">
-                                <h2 class="title">Skills</h2>
+                                
+                                <h3 class="title">Skills<img class="UnitqueSkills" src="Images/skillslogo.png"/></h3>
                                 <div class="aboutmeSkillsContainer">
                                     <div class="skills1">
                                         <img src="Images/checkmark.png"/>
@@ -123,20 +127,24 @@
             <h1 class="title">Contact Me</h1>
             <div class="lazyblock">
                 <div class="containterAboutmeEducation2">
-                    <a id="social-container" href="mailto:kimseng.thai@hotmail.com"><img src="./Images/email.png" alt="linkedin profile"></a> 
-                    <div id="social-container"><img src="./Images/linkedin.png" alt="linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/kimseng-thai/'"></div> 
-                    <div id="social-container"><img src="./Images/github.png" alt="github profile" class="icon" onclick="location.href='https://github.com/Afterburn3'"></div>
+                    <div><a id="social-container" href="mailto:kimseng.thai@hotmail.com"><img src="./Images/email.png" alt="linkedin profile"></a></div>
+                        <form>
+                        <label for="fname">Full Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="ma_email">Email</label>
+                        <input type="text" name="ma_email" id="ma_email">
+                        <label for="ma_phone">Mobile</label><br>
+                        <input type="text" name="ma_phone" id="ma_phone">
+                        <label for="ma_interest">I'm interested in</label>
+                        <input type="text" name="ma_interest" id="ma_interest">
+                        <br><br><br>
+                        <input class="btn" type="submit" value="Submit">
+                        <input class="btn" type="reset" value="Reset">
+                        </form> 
                 </div>
             </div>
 
-
             <footer>
-                <ul class="navlist">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">My Projects</a></li>
-                    <li><a href="#aboutme">About Me</a></li>               
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
                 <p>Author: Kim Seng Thai. All Rights Reserved.</p>
             </footer> 
         </section>

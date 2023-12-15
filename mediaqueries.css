@@ -26,9 +26,6 @@
 
 @media screen and (max-width: 870px) {
     
-    #nav-webpage {
-        display: none;
-    }
 
     .arrow {
         display: none;

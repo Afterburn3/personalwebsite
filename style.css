@@ -109,7 +109,7 @@ p.profileText2 {
   text-align: center;  
   }
 
-/* project section */
+/* header section for navigation bar */
   
 .navlist {
   display: flex;
@@ -121,6 +121,15 @@ p.profileText2 {
   font-size: 1.2rem;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* portfolio section */
 
 #projects > h2 {
   margin: 4rem;
@@ -203,7 +212,7 @@ p.profileText2 {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .aboutmeSkillsContainer {
@@ -213,7 +222,7 @@ p.profileText2 {
   flex-wrap: wrap;
 }
 
-.aboutmeSkillsContainer img, .skills2, #contact img {
+.aboutmeSkillsContainer img, .skills2, #contact img, .UnitqueSkills {
   width: 2.5rem;
 }
 
@@ -221,6 +230,11 @@ p.profileText2 {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+h3.title {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 /* contact me */
@@ -234,24 +248,27 @@ p.profileText2 {
   flex-direction: row;
   gap: 5px;
   justify-content: space-around;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  line-height: 30px;
+  color: #000;
+  cursor: pointer;
+  transition: border-color .2s ease-in-out;
+  padding: 5px;
 }
 
 /* footer */
-footer > .navlist {
-  display: flex;
-  overflow: visible;
-  gap: 25px;
-  justify-content: center;
-  align-items: center;
-  height: 5vh;
-  list-style: none;
-  font-size: 1.2rem;
-  margin-top: 35rem;
-}
 
 footer > p {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 25vh;
 }
 
 .arrow {
