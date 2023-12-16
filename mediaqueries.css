@@ -49,9 +49,14 @@
         font-size: 2rem;
     }
 
+    p.profileText2 {
+        text-align: center;
+    }
+
     #projects > h2 {
         margin: 0;
         text-align: center;
+        margin-left: 5%;
     }
 
     #projects img {
