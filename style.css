@@ -170,6 +170,13 @@ header {
 
 /* about me section */
 
+.containerGridAboutMe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
 .aboutmeContainer > h2 {
     margin-top: 0.2rem;
     text-align: center;

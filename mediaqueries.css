@@ -82,5 +82,10 @@
     #contact {
         margin: 1%;
     }
+
+    .containerGridAboutMe {
+        display: inline-block;
+      }
     
 }
+
